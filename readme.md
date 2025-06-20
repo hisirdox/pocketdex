@@ -12,17 +12,6 @@ O projeto serve como um exemplo prático de integração com APIs públicas, com
 - Cores de fundo dinâmicas de acordo com o tipo do Pokémon.
 - Consumo direto da [PokéAPI](https://pokeapi.co/).
 
-## Estrutura e Destaques do Código
-
-- **Angular:** Arquitetura baseada em módulos, componentes e serviços.
-- **src/app/service/poke-api.service.ts:** Serviço centralizado que consulta a PokéAPI, buscando todos os Pokémon e os detalhes de cada um.
-- **src/app/shared/poke-list/poke-list.component.ts + .html:** Componente responsável por exibir a lista com filtro de busca e renderização dinâmica dos dados.
-- **src/app/shared/poke-search/poke-search.component.ts:** Componente de input para busca de Pokémon.
-- **src/app/pages/home/home.component.html:** Monta a página principal com cabeçalho e lista.
-- **src/main.ts / src/index.html:** Bootstrapping da aplicação Angular.
-
-> ⚠️ Estes arquivos são apenas parte do projeto. Para ver mais, confira o [código completo no GitHub](https://github.com/hisirdox/pocketdex/search?q=main+app+index+script).
-
 ## Exemplos de Uso e Aplicação
 
 Pocketdex pode ser útil em:
